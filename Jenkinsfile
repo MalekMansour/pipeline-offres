@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'python:3.12-slim'
+            args '-u root'
+        }
+    }
 
     // Declenchement automatique : toutes les ~6 heures (H = repartition de la charge).
     // Combine au stage DetectChanges, on evite les executions inutiles.
@@ -137,10 +142,6 @@ PY
                     allowMissing: false,
                     alwaysLinkToLastBuild: true
                 ])
-                // --- Option GitHub Pages (a activer avec un credential, voir README) ---
-                // withCredentials([string(credentialsId: 'gh-token', variable: 'GH_TOKEN')]) {
-                //     sh './deploy-ghpages.sh'
-                // }
                 echo 'Rapport publie. Voir "Offres d emploi" dans le menu du job.'
             }
         }
