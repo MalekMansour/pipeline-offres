@@ -1,0 +1,14 @@
+2026-07-06 13:01:08,530 [INFO] Scraping multi-sources en cours...
+2026-07-06 13:01:08,685 [INFO] Remotive : 28 offres
+2026-07-06 13:01:09,969 [INFO] WorkingNomads : 36 offres
+2026-07-06 13:01:10,556 [INFO] Python.org : 25 offres
+2026-07-06 13:01:11,311 [INFO] HackerNews : 30 offres
+2026-07-06 13:01:11,873 [INFO] Fichier /app/data/jobs.csv genere avec 118 offres.
+2026-07-06 13:01:14,595 [INFO] Lecture de 118 offres depuis /app/data/jobs.csv
+2026-07-06 13:01:14,651 [INFO] Page generee : /app/public/index.html
+2026-07-06 13:02:32,214 [INFO] Scraping multi-sources en cours...
+2026-07-06 13:02:32,479 [INFO] Remotive : 28 offres
+2026-07-06 13:02:33,551 [INFO] WorkingNomads : 36 offres
+2026-07-06 13:02:33,741 [INFO] Python.org : 25 offres
+2026-07-06 13:02:34,423 [INFO] HackerNews : 30 offres
+2026-07-06 13:02:34,458 [INFO] Fichier /app/data/jobs.csv genere avec 118 offres.
